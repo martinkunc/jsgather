@@ -8,7 +8,13 @@ cp swagger.json node_modules/openshift-rest-client/lib/specs/openshift-openapi-s
 gzip node_modules/openshift-rest-client/lib/specs/openshift-openapi-spec.json 
 
 Running:
+
+JS test in Node
 ```
-$ node test.js > output.txt
+$ node test.js > output-js.txt
 ```
 
+Go
+```
+KUBECONFIG=~/.crc/machines/crc/kubeconfig go run main.go > output-go.txt
+```
