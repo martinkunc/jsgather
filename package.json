@@ -9,6 +9,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "openshift-rest-client": "^4.0.1"
+    "openshift-rest-client": "^7.1.1"
   }
 }
